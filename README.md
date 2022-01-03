@@ -55,7 +55,8 @@ Learn how to efficiently display a list of text in a RecyclerView and understand
 </com.google.android.material.card.MaterialCardView>
 ```
 
-```kotolin  
+## **[ItemAdapter](https://github.com/YamamotoDesu/ScrollableList/blob/master/app/src/main/java/com/codewithkyo/affirmations/adapter/ItemAdapter.kt)** 
+```kt  
 package com.codewithkyo.affirmations.adapter
 
 import android.content.Context
