@@ -57,18 +57,6 @@ Learn how to efficiently display a list of text in a RecyclerView and understand
 
 ## **[ItemAdapter](https://github.com/YamamotoDesu/ScrollableList/blob/master/app/src/main/java/com/codewithkyo/affirmations/adapter/ItemAdapter.kt)** 
 ```kt  
-package com.codewithkyo.affirmations.adapter
-
-import android.content.Context
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
-import androidx.recyclerview.widget.RecyclerView
-import com.codewithkyo.affirmations.R
-import com.codewithkyo.affirmations.model.Affirmation
-
 class ItemAdapter(
     private val context: Context,
     private val dataset: List<Affirmation>
