@@ -58,6 +58,7 @@ RecyclerView comes with built in LayoutManagers. RecyclerView delegates how item
 ```
 
 ## **[Model](https://github.com/YamamotoDesu/ScrollableList/blob/master/app/src/main/java/com/codewithkyo/affirmations/model/Affirmation.kt)** 
+Use resource annotations to help ensure that the right type of resource ID is passed into a class constructor.  
 ```kt 
 data class Affirmation(
     @StringRes val stringResourceId: Int,
