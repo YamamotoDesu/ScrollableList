@@ -23,3 +23,34 @@ Learn how to efficiently display a list of text in a RecyclerView and understand
         />
 </FrameLayout>
 ```
+
+## **[list_item](https://github.com/YamamotoDesu/ScrollableList/blob/master/app/src/main/res/layout/list_item.xml)** 
+```xml 
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:id="@+id/item_image"
+            android:importantForAccessibility="no"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+```
