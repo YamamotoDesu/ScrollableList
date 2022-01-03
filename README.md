@@ -2,3 +2,24 @@
 Learn how to efficiently display a list of text in a RecyclerView and understand its architecture.
 
 <img width="348" src="https://github.com/YamamotoDesu/ScrollableList/blob/master/app/src/main/java/Gif/scrollableview.gif">
+
+
+## **[activity_main](https://github.com/YamamotoDesu/ScrollableList/blob/master/app/src/main/res/layout/activity_main.xml)** 
+```xml 
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        app:layoutManager="LinearLayoutManager"
+        />
+</FrameLayout>
+```
