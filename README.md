@@ -5,8 +5,8 @@ Learn how to efficiently display a list of text in a RecyclerView and understand
 
 ## **[activity_main](https://github.com/YamamotoDesu/ScrollableList/blob/master/app/src/main/res/layout/activity_main.xml)** 
 
-RecyclerView widget helps you display a list of data.  
-RecyclerView comes with built in LayoutManagers. RecyclerView delegates how items are laid out to LayoutManagers.  
+* RecyclerView widget helps you display a list of data.  
+* RecyclerView comes with built in LayoutManagers. RecyclerView delegates how items are laid out to LayoutManagers.  
 ```xml 
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -27,8 +27,8 @@ RecyclerView comes with built in LayoutManagers. RecyclerView delegates how item
 ```
 
 ## **[list_item](https://github.com/YamamotoDesu/ScrollableList/blob/master/app/src/main/res/layout/list_item.xml)** 
-Use the Material Components for Android library to have your app more easily follow the recommended Material Design guidelines.  
-Use MaterialCardView to display content in a Material card.  
+* Use the Material Components for Android library to have your app more easily follow the recommended Material Design guidelines.  
+* Use MaterialCardView to display content in a Material card.  
 ```xml  
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView  xmlns:android="http://schemas.android.com/apk/res/android"
@@ -60,7 +60,7 @@ Use MaterialCardView to display content in a Material card.
 ```
 
 ## **[Model](https://github.com/YamamotoDesu/ScrollableList/blob/master/app/src/main/java/com/codewithkyo/affirmations/model/Affirmation.kt)** 
-Use resource annotations to help ensure that the right type of resource ID is passed into a class constructor.  
+* Use resource annotations to help ensure that the right type of resource ID is passed into a class constructor.  
 ```kt 
 data class Affirmation(
     @StringRes val stringResourceId: Int,
@@ -92,9 +92,9 @@ class Datasource {
 RecyclerView uses the adapter pattern to adapt and display the data.  
 ViewHolder creates and holds the views for RecyclerView.  
 
-Create a custom ViewHolder class that represents a single list item view. Extend from RecyclerView.ViewHolder class.  
-Modify the ItemAdapter class to extend from the RecyclerView.Adapter class with the custom ViewHolder class.  
-Implement these methods within the adapter: getItemsCount(), onCreateViewHolder(), and onBindViewHolder().  
+* Create a custom ViewHolder class that represents a single list item view. Extend from RecyclerView.ViewHolder class.  
+* Modify the ItemAdapter class to extend from the RecyclerView.Adapter class with the custom ViewHolder class.  
+* Implement these methods within the adapter: getItemsCount(), onCreateViewHolder(), and onBindViewHolder().  
 ```kt  
 class ItemAdapter(
     private val context: Context,
