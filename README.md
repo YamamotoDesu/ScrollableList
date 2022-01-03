@@ -27,7 +27,9 @@ RecyclerView comes with built in LayoutManagers. RecyclerView delegates how item
 ```
 
 ## **[list_item](https://github.com/YamamotoDesu/ScrollableList/blob/master/app/src/main/res/layout/list_item.xml)** 
-```xml 
+Use the Material Components for Android library to have your app more easily follow the recommended Material Design guidelines.  
+Use MaterialCardView to display content in a Material card.  
+```xml  
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView  xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
